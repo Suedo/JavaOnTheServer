@@ -1,0 +1,16 @@
+controller : takes a user input > gives a model to work with in the backend
+              also, determines view based off logic
+              also, provides access to business logic
+              also, takes exceptions from business logic and handles them
+
+Important Annotations:
+
+@Configuration: Signifies a configuration class that's used for configuring application context. (makes the )
+@RestController: Expose RESTful services out of the controller
+@EnableWebMvc: Used in conjunction with @Configuration to bootstrap the application. (replaces the servlet-config.xml)
+@ComponentScan: Specifies locations of classes that should be scanned in this context. Overrides the default scan location of @Controller s
+
+
+
+@ComponentScan(basePackages="com.pluralsight") : look for configuration classes etc in this location
+

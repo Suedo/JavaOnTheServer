@@ -1,0 +1,14 @@
+*.DS_Store
+bin
+target
+.classpath
+.project
+.settings
+**/.idea
+**/META-INF
+*.iml
+springmvc-intro-PL
+spring-mvc4-PL
+**/Servers
+**/lib/*.jar
+**/out
